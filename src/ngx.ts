@@ -1,12 +1,12 @@
-import { CapacitorGoogleAuthPlugin } from './definitions';
+import { GoogleAuthPlugin } from './definitions';
 import { Injectable } from '@angular/core';
 import { Plugins } from '@capacitor/core';
 
 const GoogleAuthPlugin =
-  Plugins.CapacitorGoogleAuth as CapacitorGoogleAuthPlugin;
+  Plugins.GoogleAuth as GoogleAuthPlugin;
 
 @Injectable()
-export class GoogleAuth implements CapacitorGoogleAuthPlugin {
+export class GoogleAuth implements GoogleAuthPlugin {
   signIn = GoogleAuthPlugin.signIn;
   refresh = GoogleAuthPlugin.refresh;
   signOut = GoogleAuthPlugin.signOut;

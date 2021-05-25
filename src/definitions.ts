@@ -1,6 +1,6 @@
 declare module '@capacitor/core' {
   interface PluginRegistry {
-    CapacitorGoogleAuth: CapacitorGoogleAuthPlugin;
+    GoogleAuth: GoogleAuthPlugin;
   }
 }
 
@@ -22,7 +22,7 @@ export interface Authentication {
   idToken: string;
 }
 
-export interface CapacitorGoogleAuthPlugin {
+export interface GoogleAuthPlugin {
   signIn(): Promise<User>;
   refresh(): Promise<Authentication>;
   signOut(): Promise<void>;

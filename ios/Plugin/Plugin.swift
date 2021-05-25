@@ -6,8 +6,8 @@ import GoogleSignIn
  * Please read the Capacitor iOS Plugin Development Guide
  * here: https://capacitorjs.com/docs/plugins/ios
  */
-@objc(CapacitorGoogleAuth)
-public class CapacitorGoogleAuth: CAPPlugin {
+@objc(GoogleAuth)
+public class GoogleAuth: CAPPlugin {
     var signInCall: CAPPluginCall?
     let googleSignIn = GIDSignIn.sharedInstance()
     var forceAuthCode: Bool = false

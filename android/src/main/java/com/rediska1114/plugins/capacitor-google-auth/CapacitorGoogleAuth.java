@@ -13,12 +13,12 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.tasks.Task;
-import com.rediska1114.plugins.GoogleAuth.CapacitorGoogleAuth.R;
+import com.rediska1114.plugins.GoogleAuth.GoogleAuth.R;
 import org.json.JSONArray;
 import org.json.JSONException;
 
 @NativePlugin(requestCodes = GoogleAuth.RC_SIGN_IN)
-public class CapacitorGoogleAuth extends Plugin {
+public class GoogleAuth extends Plugin {
 
     static final int RC_SIGN_IN = 1337;
     private GoogleSignInClient googleSignInClient;
