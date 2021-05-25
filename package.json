@@ -1,6 +1,6 @@
 {
   "name": "capacitor-google-auth",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Capacitor plugin for Google Auth.",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -41,7 +41,7 @@
     "dist/",
     "ios/",
     "android/",
-    "GoogleAuth.podspec"
+    "CapacitorGoogleAuth.podspec"
   ],
   "keywords": [
     "capacitor",
