@@ -29,6 +29,7 @@ public class GoogleAuth: CAPPlugin {
             forceAuthCode = forceAuthCodeConfig
         }
         NotificationCenter.default.addObserver(self, selector: #selector(handleOpenUrl(_:)), name: Notification.Name(CAPNotifications.URLOpen.name()), object: nil)
+        print("GoogleAuth loaded")
     }
 
     @objc
