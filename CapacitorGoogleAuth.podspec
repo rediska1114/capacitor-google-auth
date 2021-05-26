@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'Capacitor'
   s.dependency 'GoogleSignIn', '~> 5.0.2'
   s.swift_version = '5.1'
+  s.static_framework = true
 end
