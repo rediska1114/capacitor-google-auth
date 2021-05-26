@@ -9,7 +9,7 @@ import GoogleSignIn
 @objc(GoogleAuth)
 public class GoogleAuth: CAPPlugin {
     var signInCall: CAPPluginCall?
-    let googleSignIn = GIDSignIn.sharedInstance()
+    let googleSignIn = GIDSignIn.sharedInstance()!
     var forceAuthCode: Bool = false
 
     override public func load() {
